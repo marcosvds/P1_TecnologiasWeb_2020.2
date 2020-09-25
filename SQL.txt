@@ -1,0 +1,13 @@
+Aqui estão os comandos utilizados para criar o database e as tabelas utilizadas neste projeto:
+
+1. CREATE DATABASE Projeto1;
+2. USE Projeto1;
+3. CREATE TABLE Aluno (
+	    id INT NOT NULL AUTO_INCREMENT,
+	    nome VARCHAR(32) NOT NULL,
+	    sobrenome VARCHAR(32) NOT NULL,
+	    idade INT,
+	    email VARCHAR(32) NOT NULL,
+	    curso VARCHAR(32) NOT NULL,
+	    PRIMARY KEY (id)
+   );
