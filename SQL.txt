@@ -2,7 +2,7 @@ Aqui estão os comandos utilizados para criar o database e as tabelas utilizadas
 
 1. CREATE DATABASE Projeto1;
 2. USE Projeto1;
-3. CREATE TABLE Tarefas (
+3. CREATE TABLE Tarefa (
 	    id INT NOT NULL AUTO_INCREMENT,
 	    titulo VARCHAR(255) NOT NULL,
             conteudo TEXT NOT NULL,
@@ -10,5 +10,4 @@ Aqui estão os comandos utilizados para criar o database e as tabelas utilizadas
 	    prioridade INT,
 	    data DATE,
 	    PRIMARY KEY (id)
-
    );
